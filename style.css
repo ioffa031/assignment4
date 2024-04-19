@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+}
+
+@font-face {
+    font-family: 'manuka';
+    src: url('./fonts/test-manuka-medium.woff2');
+}
+
+@font-face {
+    font-family: 'manuka reg';
+    src: url('./fonts/test-manuka-light.woff2');
+}
+
+@font-face {
+    font-family: 'ppformula';
+    src: url('./fonts/PPFormula-NarrowRegular.woff');
+}
+
+.hidden {
+    display: none;
+}
+
+.show-colors, .show-rarity {
+    display: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: "neulis-sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    border-width: 1px;
+    margin: 15px;  
+    font-size: 30px;
+}
+
+.reset-button {
+    display: none;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 5px 100px;
+    font-family: "neulis-sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    border-width: 1px;
+    font-size: 30px;
+}
+
+.reset-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.show-colors:hover, .show-rarity:hover {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+}
+
+.button-elements, .rare-button-elements {
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-family: "neulis-sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    border-width: 1px;
+    margin: 10px;  
+    font-size: 20px;
+    display: none;
+}
+
+.rare-container button, .color-container button {
+    display: none;
+}
+
+.rare-button-elements:hover {
+    background-color: black;
+}
+
+.button-elements:nth-child(1):hover {
+    background-color: rgb(55, 55, 116);
+}
+.button-elements:nth-child(2):hover {
+    background-color: rgb(66, 59, 18);
+}
+.button-elements:nth-child(3):hover {
+    background-color: rgb(149, 152, 153);
+}
+.button-elements:nth-child(4):hover {
+    background-color: rgb(49, 80, 46);
+}
+.button-elements:nth-child(5):hover {
+    background-color: rgb(50, 33, 16);
+}
+
+.button-elements:hover, .rare-button-elements:hover {
+    cursor: pointer;
+    color: white;
+    border-width: 0px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-eye, .button-rare {
+    display: flex;
+    align-items: center;
+}
+
+
+.title-container {
+    position: absolute;
+    z-index: 1;
+    /* align-items: center; */
+    font-size: 700px;
+    font-family: 'manuka';
+    top: 3%;
+    left: 10%;
+    filter: blur(5px);
+    color: white;
+    border: none;
+    background-color: transparent;
+    transition: color .3s ease;
+}
+
+.title-container:hover{
+    color: rgb(0, 0, 0);
+    filter: blur(1px);
+    cursor: pointer;
+    transition: color .3s ease;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    filter: blur(5px);
+}
+
+.eye {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.eye img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+    .image-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .title-container {
+        font-size: 600px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .image-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-container button {
+        padding: 5px 200px;
+    }
+
+    .color-container {
+        flex-direction: column;
+    }
+
+    .title-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 500px;
+    }
+}
+
+

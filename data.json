@@ -1,0 +1,123 @@
+[
+    {
+        "name": "eye1",
+        "color": "blue",
+        "rarity": "common",
+        "asset": "layer 1.png"
+    },
+    {
+        "name": "eye9",
+        "color": "hazel",
+        "rarity": "common",
+        "asset": "layer 9.png"
+    },
+    {
+        "name": "eye19",
+        "color": "grey",
+        "rarity": "rare",
+        "asset": "layer 19.png"
+    },
+    {
+        "name": "eye3",
+        "color": "blue",
+        "rarity": "common",
+        "asset": "layer 3.png"
+    },
+    {
+        "name": "eye5",
+        "color": "green",
+        "rarity": "rare",
+        "asset": "layer 5.png"
+    },
+    {
+        "name": "eye18",
+        "color": "grey",
+        "rarity": "rare",
+        "asset": "layer 18.png"
+    },
+    {
+        "name": "eye13",
+        "color": "brown",
+        "rarity": "common",
+        "asset": "layer 13.png"
+    },
+    {
+        "name": "eye6",
+        "color": "green",
+        "rarity": "rare",
+        "asset": "layer 6.png"
+    },
+    {
+        "name": "eye14",
+        "color": "brown",
+        "rarity": "common",
+        "asset": "layer 14.png"
+    },
+    {
+        "name": "eye10",
+        "color": "hazel",
+        "rarity": "common",
+        "asset": "layer 10.png"
+    },
+    {
+        "name": "eye4",
+        "color": "blue",
+        "rarity": "common",
+        "asset": "layer 4.png"
+    },
+    {
+        "name": "eye17",
+        "color": "grey",
+        "rarity": "rare",
+        "asset": "layer 17.png"
+    },
+    {
+        "name": "eye2",
+        "color": "blue",
+        "rarity": "common",
+        "asset": "layer 2.png"
+    },
+    {
+        "name": "eye7",
+        "color": "green",
+        "rarity": "rare",
+        "asset": "layer 7.png"
+    },
+    {
+        "name": "eye11",
+        "color": "hazel",
+        "rarity": "common",
+        "asset": "layer 11.png"
+    },
+    {
+        "name": "eye8",
+        "color": "green",
+        "rarity": "rare",
+        "asset": "layer 8.png"
+    },
+    {
+        "name": "eye12",
+        "color": "hazel",
+        "rarity": "common",
+        "asset": "layer 12.png"
+    },
+    {
+        "name": "eye15",
+        "color": "brown",
+        "rarity": "common",
+        "asset": "layer 15.png"
+    },
+    {
+        "name": "eye20",
+        "color": "grey",
+        "rarity": "rare",
+        "asset": "layer 20.png"
+    },
+    {
+        "name": "eye16",
+        "color": "brown",
+        "rarity": "common",
+        "asset": "layer 16.png"
+    }
+
+]
